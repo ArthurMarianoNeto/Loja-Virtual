@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "727960043828",
+    "project_id": "lojavirtual-dca4e",
+    "storage_bucket": "lojavirtual-dca4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727960043828:android:c05a9a891a44d4be74a561",
+        "android_client_info": {
+          "package_name": "br.com.arthurmariano.loja_virtual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727960043828-hgh7j0ecotuc11gdfuahf429tomjbtqp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3e2DBwc5t6GjgSNcZyS_X2oAlq-owqeM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727960043828-hgh7j0ecotuc11gdfuahf429tomjbtqp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
