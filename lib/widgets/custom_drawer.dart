@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart ';
 
 class CustomDrawer extends StatelessWidget {
@@ -22,7 +23,24 @@ class CustomDrawer extends StatelessWidget {
         children: [
           _buildDrawerBack(),
           ListView(
-            padding: EdgeInsets.only(left: 32, top: 16),
+            padding: EdgeInsets.only(left: 32.0, top: 16.0),
+            children: [
+              Container(
+                margin: EdgeInsets.only(bottom: 8.0),
+                padding: EdgeInsets.fromLTRB(0.0, 16.0, 16.0, 8.0),
+                height: 170.0,
+                child: Stack(
+                  children: [
+                    Positioned(top: 8.0,
+                        left: 0.0,
+                        child: Text("Mega Moda209", // Text("Mega \nModa209",
+                          style: TextStyle(fontSize: 34.0, fontWeight: FontWeight.bold),
+                        )
+                    )
+                  ],
+                ),
+              )
+            ],
           )
         ],
       ),
