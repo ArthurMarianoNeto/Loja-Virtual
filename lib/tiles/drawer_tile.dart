@@ -4,8 +4,10 @@ class DrawerTile extends StatelessWidget {
 
   final IconData icon;
   final String text;
+  final PageController controller;
+  final int page;
 
-  DrawerTile(this.icon, this.text);
+  DrawerTile(this.icon, this.text, this.controller, this.page,);
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +15,8 @@ class DrawerTile extends StatelessWidget {
       color: Colors.transparent,
       child: InkWell(
         onTap: (){
-
+            Navigator.of(context).pop();
+            controller.jumpToPage(page);
         },
         child: Container(
           height: 60.0,
