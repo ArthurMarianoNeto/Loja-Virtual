@@ -16,7 +16,14 @@ class HomeScreen extends StatelessWidget {
              body: HomeTab(),
            drawer: CustomDrawer(_pageController),
          ),
-        Container(color: Colors.red,),
+      Scaffold(
+        appBar: AppBar(
+          title: Text("Produtos"),
+          centerTitle: true,
+        ),
+        drawer: CustomDrawer(_pageController),
+        body: Container(),
+      ),
         Container(color: Colors.yellow,),
         Container(color: Colors.blue,)
       ],
